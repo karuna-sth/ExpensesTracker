@@ -1,0 +1,45 @@
+{% extends 'base_auth.html' %}
+{% block content %}
+
+<div>
+    <div class = "col-md-4">
+    </div>
+    <div class = "col-md-4">
+        <div class="card mt-5">
+            <div class="card-title">
+                <h4>Register for free account</h4>
+                <form action="" method="post">
+                    <div class="form-group">
+                        <input 
+                            type="email" 
+                            name="email" 
+                            id="emailField" 
+                            placeholder="Your Email" 
+                            class="form-control form-control-sm"
+                        >
+                        <input 
+                            type="text" 
+                            name="username" 
+                            id="usernameField" 
+                            placeholder="Your UserName" 
+                            class="form-control form-control-sm"
+                        >
+                        <input 
+                            type="password" 
+                            name="email" 
+                            id="passwordField" 
+                            placeholder="Enter Password" 
+                            class="form-control form-control-sm"
+                        >
+                        <input type="button" value="Register" class="btn btn-block">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class = "col-md-4">
+    </div>
+</div>
+
+
+{% endblock content %}
